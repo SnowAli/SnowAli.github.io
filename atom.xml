@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SnowAli</title>
   
-  <subtitle>SnowAli</subtitle>
+  
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-18T11:46:00.587Z</updated>
+  <updated>2020-10-19T11:04:52.721Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,28 +21,12 @@
     <link href="http://example.com/2020/10/11/node.js%E8%B7%AF%E7%94%B1/"/>
     <id>http://example.com/2020/10/11/node.js%E8%B7%AF%E7%94%B1/</id>
     <published>2020-10-11T07:54:26.000Z</published>
-    <updated>2020-10-18T11:46:00.587Z</updated>
+    <updated>2020-10-19T11:04:52.721Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Node-js路由"><a href="#Node-js路由" class="headerlink" title="Node.js路由"></a>Node.js路由</h2><p>首先明白路由是什么？路由就是Web服务器根据用户输入的不同url返回不同的页面。</p><p>例如登录页面login和注册页面register</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#默认端口都为80</span><br><span class="line">http:&#x2F;&#x2F;localhost&#x2F;login</span><br><span class="line">http:&#x2F;&#x2F;localhost&#x2F;register</span><br></pre></td></tr></table></figure><h4 id="实现思路"><a href="#实现思路" class="headerlink" title="实现思路"></a>实现思路</h4><ol><li>获得用户请求的url<br>通过监听函数中的request参数获取，即request.url</li><li>解析url，得到具体的请求页面，也就是路由入口，login和register </li><li></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Node-js路由&quot;&gt;&lt;a href=&quot;#Node-js路由&quot; class=&quot;headerlink&quot; title=&quot;Node.js路由&quot;&gt;&lt;/a&gt;Node.js路由&lt;/h2&gt;&lt;p&gt;首先明白路由是什么？路由就是Web服务器根据用户输入的不同url返回不同的页面。&lt;/</summary>
-      
+    <content type="html"><![CDATA[<h2 id="Node-js路由"><a href="#Node-js路由" class="headerlink" title="Node.js路由"></a>Node.js路由</h2><p>首先明白路由是什么？路由就是Web服务器根据用户输入的不同url返回不同的页面。</p><a id="more"></a><p>例如登录页面login和注册页面register</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#默认端口都为80</span><br><span class="line">http:&#x2F;&#x2F;localhost&#x2F;login</span><br><span class="line">http:&#x2F;&#x2F;localhost&#x2F;register</span><br></pre></td></tr></table></figure><h4 id="实现思路"><a href="#实现思路" class="headerlink" title="实现思路"></a>实现思路</h4><ol><li>获得用户请求的url<br>通过监听函数中的request参数获取，即request.url</li><li>解析url，得到具体的请求页面，也就是路由入口，login和register </li><li></li></ol>]]></content>
     
     
-    
-    
-  </entry>
-  
-  <entry>
-    <title>myblog</title>
-    <link href="http://example.com/2020/10/11/myblog/"/>
-    <id>http://example.com/2020/10/11/myblog/</id>
-    <published>2020-10-11T07:54:26.000Z</published>
-    <updated>2020-10-11T07:54:26.522Z</updated>
-    
+    <summary type="html">&lt;h2 id=&quot;Node-js路由&quot;&gt;&lt;a href=&quot;#Node-js路由&quot; class=&quot;headerlink&quot; title=&quot;Node.js路由&quot;&gt;&lt;/a&gt;Node.js路由&lt;/h2&gt;&lt;p&gt;首先明白路由是什么？路由就是Web服务器根据用户输入的不同url返回不同的页面。&lt;/p&gt;</summary>
     
     
     
