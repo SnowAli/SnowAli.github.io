@@ -1214,7 +1214,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff9fda;
+  background: #873373;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2748,7 +2748,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background-image: url("https://raw.githubusercontent.com/SnowAli/FigureBed/main/img/wallroom-2880x1620-bg-c1df6e5.png");
+  background-image: url("https://cdn.17shou.vip/2020/08/18/cb24a76c2c254.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
