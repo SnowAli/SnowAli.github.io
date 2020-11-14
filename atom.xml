@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-10-28T15:08:27.173Z</updated>
+  <updated>2020-11-14T09:07:30.901Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用vue ui对项目打包时 “No module factory available for dependency type：CssDependency”</title>
+    <link href="http://example.com/2020/11/14/vue%20ui%E6%89%93%E5%8C%85%E6%8A%A5%E9%94%99/"/>
+    <id>http://example.com/2020/11/14/vue%20ui%E6%89%93%E5%8C%85%E6%8A%A5%E9%94%99/</id>
+    <published>2020-11-14T07:54:26.000Z</published>
+    <updated>2020-11-14T09:07:30.901Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用vue-cli提供的可视化界面进行项目打包时，出现了这个错误:</p><a id="more"></a><p><img src="https://raw.githubusercontent.com/SnowAli/FigureBed/main/img/20201114162926.png"></p><p>但直接在终端执行 <strong>npm run build</strong> 命令却是没问题的</p><p><img src="https://raw.githubusercontent.com/SnowAli/FigureBed/main/img/20201114163406.png"></p><p>在vue.js.config文件中，添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">module.exports &#x3D; &#123;</span><br><span class="line">  css: &#123;</span><br><span class="line">    extract: false</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>就可以打包了</p><p>见文档：<a href="https://cli.vuejs.org/zh/config/#css-extract">https://cli.vuejs.org/zh/config/#css-extract</a><br>具体原因尚未清楚</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;使用vue-cli提供的可视化界面进行项目打包时，出现了这个错误:&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Vue" scheme="http://example.com/categories/Vue/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+    <category term="Vue-Cli Web前端" scheme="http://example.com/tags/Vue-Cli-Web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>Babel转码器</title>
