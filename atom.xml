@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-20T09:41:08.080Z</updated>
+  <updated>2020-12-20T10:08:56.670Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="http://example.com/2020/12/20/node%E5%BA%94%E7%94%A8%E8%BF%90%E8%A1%8C%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A/"/>
     <id>http://example.com/2020/12/20/node%E5%BA%94%E7%94%A8%E8%BF%90%E8%A1%8C%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A/</id>
     <published>2020-12-20T09:23:17.000Z</published>
-    <updated>2020-12-20T09:41:08.080Z</updated>
+    <updated>2020-12-20T10:08:56.670Z</updated>
     
-    <content type="html"><![CDATA[<p>想要node应用持续运行在Linux服务器上，不被杀掉进程，要使用nohub node app.js命令</p><p>每次修改代码，重新打包部署之后，要先cd到当前node应用目录，使用lsof -i:3000（3000是应用运行的端口）<br>找到PID</p><p>使用kill命令，将该PID杀掉，之后，再重新使用nohub node app.js</p><p><img src="https://raw.githubusercontent.com/SnowAli/FigureBed/main/img/Linux-pid.png"><br>参考链接：<a href="https://www.runoob.com/w3cnote/linux-check-port-usage.html">https://www.runoob.com/w3cnote/linux-check-port-usage.html</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="node持续运行"><a href="#node持续运行" class="headerlink" title="node持续运行"></a>node持续运行</h1><p>想要node应用持续运行在Linux服务器上，不被杀掉进程，要使用nohub node app.js命令</p><p>每次修改代码，重新打包部署之后，要先cd到当前node应用目录，使用lsof -i:3000（3000是应用运行的端口）<br>找到PID</p><p>使用kill命令，将该PID杀掉，之后，再重新使用nohub node app.js</p><h1 id="直接关掉控制台之后应用也失效"><a href="#直接关掉控制台之后应用也失效" class="headerlink" title="直接关掉控制台之后应用也失效"></a>直接关掉控制台之后应用也失效</h1><p>阿里云使用nohup来后台运行node.js服务，在关掉控制台之后，应用会立刻失效</p><p>解决办法：不要点击窗口右上角的关闭按钮来关闭终端，而是输入exit命令来退出终端，这样的话服务就能一直运行。</p><p><img src="https://raw.githubusercontent.com/SnowAli/FigureBed/main/img/Linux-pid.png"><br>参考链接：<a href="https://www.runoob.com/w3cnote/linux-check-port-usage.html">https://www.runoob.com/w3cnote/linux-check-port-usage.html</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;想要node应用持续运行在Linux服务器上，不被杀掉进程，要使用nohub node app.js命令&lt;/p&gt;
-&lt;p&gt;每次修改代码，重新打包部署之后，要先cd到当前node应用目录，使用lsof -i:3000（3000是应用运行的端口）&lt;br&gt;找到PID&lt;/p&gt;
-&lt;p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;node持续运行&quot;&gt;&lt;a href=&quot;#node持续运行&quot; class=&quot;headerlink&quot; title=&quot;node持续运行&quot;&gt;&lt;/a&gt;node持续运行&lt;/h1&gt;&lt;p&gt;想要node应用持续运行在Linux服务器上，不被杀掉进程，要使用nohub node ap</summary>
       
     
     
@@ -57,11 +55,11 @@
     <category term="组件库" scheme="http://example.com/categories/%E7%BB%84%E4%BB%B6%E5%BA%93/"/>
     
     
+    <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="Vue" scheme="http://example.com/tags/Vue/"/>
     
     <category term="Element-ui" scheme="http://example.com/tags/Element-ui/"/>
-    
-    <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -153,9 +151,9 @@
     <category term="Node" scheme="http://example.com/categories/Node/"/>
     
     
-    <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="Node" scheme="http://example.com/tags/Node/"/>
+    
+    <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
