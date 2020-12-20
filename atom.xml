@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-14T09:07:30.901Z</updated>
+  <updated>2020-12-20T09:37:12.981Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,82 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>node应用运行在服务器上</title>
+    <link href="http://example.com/2020/12/20/node%E5%BA%94%E7%94%A8%E8%BF%90%E8%A1%8C%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A/"/>
+    <id>http://example.com/2020/12/20/node%E5%BA%94%E7%94%A8%E8%BF%90%E8%A1%8C%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A/</id>
+    <published>2020-12-20T09:23:17.000Z</published>
+    <updated>2020-12-20T09:37:12.981Z</updated>
+    
+    <content type="html"><![CDATA[<p>想要node应用持续运行在服务器上，不被杀掉进程，要使用nohub node app.js命令</p><p>每次修改代码，重新打包部署之后，要先cd到当前node应用目录，使用lsof -i:3000（3000是应用运行的端口）<br>找到PID</p><p>使用kill命令，将该PID杀掉，之后，再重新使用nohub node app.js</p><p><img src="https://raw.githubusercontent.com/SnowAli/FigureBed/main/img/20201220172718.png"></p><p>参考链接：<a href="https://www.runoob.com/w3cnote/linux-check-port-usage.html">https://www.runoob.com/w3cnote/linux-check-port-usage.html</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;想要node应用持续运行在服务器上，不被杀掉进程，要使用nohub node app.js命令&lt;/p&gt;
+&lt;p&gt;每次修改代码，重新打包部署之后，要先cd到当前node应用目录，使用lsof -i:3000（3000是应用运行的端口）&lt;br&gt;找到PID&lt;/p&gt;
+&lt;p&gt;使用kil</summary>
+      
+    
+    
+    
+    <category term="Node" scheme="http://example.com/categories/Node/"/>
+    
+    
+    <category term="Node" scheme="http://example.com/tags/Node/"/>
+    
+    <category term="Node应用部署" scheme="http://example.com/tags/Node%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>element组件的dialog中的表单数据更改时无法做到实时渲染</title>
+    <link href="http://example.com/2020/12/07/element%E7%BB%84%E4%BB%B6%E7%9A%84dialog%E4%B8%AD%E7%9A%84%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%94%B9%E6%97%B6%E6%97%A0%E6%B3%95%E5%81%9A%E5%88%B0%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93/"/>
+    <id>http://example.com/2020/12/07/element%E7%BB%84%E4%BB%B6%E7%9A%84dialog%E4%B8%AD%E7%9A%84%E8%A1%A8%E5%8D%95%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%94%B9%E6%97%B6%E6%97%A0%E6%B3%95%E5%81%9A%E5%88%B0%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93/</id>
+    <published>2020-12-07T07:54:26.000Z</published>
+    <updated>2020-12-13T12:07:52.285Z</updated>
+    
+    
+    
+    
+    <category term="组件库" scheme="http://example.com/categories/%E7%BB%84%E4%BB%B6%E5%BA%93/"/>
+    
+    
+    <category term="Vue" scheme="http://example.com/tags/Vue/"/>
+    
+    <category term="Element-ui" scheme="http://example.com/tags/Element-ui/"/>
+    
+    <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>position：stick的使用</title>
+    <link href="http://example.com/2020/11/23/position%EF%BC%9Asticky%E7%9A%84%E5%9D%91/"/>
+    <id>http://example.com/2020/11/23/position%EF%BC%9Asticky%E7%9A%84%E5%9D%91/</id>
+    <published>2020-11-23T07:54:26.000Z</published>
+    <updated>2020-11-23T11:07:52.688Z</updated>
+    
+    <content type="html"><![CDATA[<p>看这篇文章吧：<br><a href="https://segmentfault.com/a/1190000007183209">https://segmentfault.com/a/1190000007183209</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;看这篇文章吧：&lt;br&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000007183209&quot;&gt;https://segmentfault.com/a/1190000007183209&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="CSS" scheme="http://example.com/categories/CSS/"/>
+    
+    
+    <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+  </entry>
   
   <entry>
     <title>使用vue ui对项目打包时 “No module factory available for dependency type：CssDependency”</title>
@@ -77,30 +153,9 @@
     <category term="Node" scheme="http://example.com/categories/Node/"/>
     
     
-    <category term="Node" scheme="http://example.com/tags/Node/"/>
-    
     <category term="Web前端" scheme="http://example.com/tags/Web%E5%89%8D%E7%AB%AF/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2020/10/11/hello-world/"/>
-    <id>http://example.com/2020/10/11/hello-world/</id>
-    <published>2020-10-11T06:58:02.426Z</published>
-    <updated>2020-10-22T08:06:31.314Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Hello" scheme="http://example.com/categories/Hello/"/>
-    
-    
-    <category term="Hello" scheme="http://example.com/tags/Hello/"/>
+    <category term="Node" scheme="http://example.com/tags/Node/"/>
     
   </entry>
   
